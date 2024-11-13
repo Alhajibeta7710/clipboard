@@ -35,7 +35,6 @@ body{
 .three{
     display: flex;
     gap: 10px;
-    /* margin-top: 15px; */
 }
 .pin1{
     border-radius: 15px;
@@ -107,9 +106,7 @@ body{
 .forth{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
-    /* justify-items: center; */
     gap: 15px;
     margin-top: 50px;
 }
@@ -281,33 +278,6 @@ body{
     .pics{
         flex-direction: column;
     }
-    .comp{
-        /* width: 110vw; */
-    }
-    
-    .two{
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* align-items: center; */
-        /* gap: 15px; */
-        /* text-align: center; */
-        /* font-size: 20px; */
-        /* overflow: hidden; */
-
-    }
-    .second{
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* justify-items: center; */
-    }
-    .four {
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* justify-items: center; */
-        /* gap: 15px; */
-        /* text-align: center; */
-        /* overflow: hidden; */
-    } 
     .second h3{
           font-size: 25px;
           width: 60VW;
@@ -316,22 +286,8 @@ body{
         font-size: 20px;
         width: 85vw;
     }
-    .sece3{
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* align-items: center; */
-        /* gap: 35px; */
-        /* text-align: center; */
-        /* font-size: 20px; */
-        /* overflow: hidden; */
-    }
     .ab h3{
         text-align: center;
-    }
-    .forth{
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* justify-items: center; */
     }
     .deck h3{
         font-size: 30px;
@@ -340,11 +296,7 @@ body{
     }
     .deck p{
         font-size: 25px;
-        /* text-align: center; */
-        width: 110vw;
-    }
-    .device{
-        /* width: 95vw; */
+        width: 100vw;
     }
     .pat{
         flex-direction: column;
@@ -354,30 +306,24 @@ body{
         font-size: 25px;
         width: 110vw;
     }
-    .pics img{
-        /* display: flex; */
-    }
-    .last{
-        /* display: flex; */
-        /* text-align: center; */
-        /* gap: 15px; */
-        /* font-size: 25px; */
-        /* width: 75vw; */
-        /* overflow: hidden; */
-    }
     .last p{
         width: 90vw;
     }
+    .CB p{
+        width: 80vw;
+    }
+    .PT p{
+        width: 80vw;
+    }
+    .SP p{
+        width: 80vw;
+    }
     .seventh{
-          /* display: flex; */
           flex-direction: column;
           align-items: center;
           justify-content: center;
           padding: 0px;
           text-align: center;
-          /* text-align: center; */
-          /* width: 125vw; */
-          /* font-size: 25px; */
           gap: 25px;
     }
     .seventh div{
@@ -391,6 +337,11 @@ body{
     .rest img{
         height: 20px;
     }
-        
+    .comp{
+        height: 250px;
+    }
+    .device{
+        height: 250px;
+    }    
 }   
 
